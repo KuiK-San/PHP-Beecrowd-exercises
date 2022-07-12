@@ -6,5 +6,5 @@ $vendas = (float) fgets(STDIN);
 
 $valor = $fixed_sal + $vendas * 0.15;
 
-echo "TOTAL = " . number_format($valor, 2, ".", "") . "\n";
+echo "TOTAL = R$ " . number_format($valor, 2, ".", "") . "\n";
 ?>
