@@ -14,7 +14,7 @@ for($x = 0; $x < 6; $x++){
 
 echo "MOEDAS:\n";
 
-for($x = 5; $x < 12; $x++){
+for($x = 6; $x < 11; $x++){
     $quantidade = $valor / $valor_notas[$x];
 
     echo (int) $quantidade . " moeda(s) de R$ " . $valor_notas[$x] . "\n";
