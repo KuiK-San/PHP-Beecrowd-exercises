@@ -4,7 +4,7 @@ $gasolina = 0;
 $diesel = 0;
 
 
-echo "MUITO OBRIGADO";
+echo "MUITO OBRIGADO\n";
 
 while ($input != 4) {
     $input = readline();
