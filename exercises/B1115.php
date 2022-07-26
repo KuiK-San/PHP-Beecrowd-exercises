@@ -1,6 +1,6 @@
 <?php
 $eixos = explode(" ", readline());
-$x = $exios[0];
+$x = $eixos[0];
 $y = $eixos[1];
 
 while($x != 0 && $y != 0){
@@ -15,7 +15,7 @@ while($x != 0 && $y != 0){
         echo "quarto\n";
     }
     $eixos = explode(" ", readline());
-    $x = $exios[0];
+    $x = $eixos[0];
     $y = $eixos[1];
 }
 ?>
