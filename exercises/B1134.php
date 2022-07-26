@@ -8,12 +8,17 @@ echo "MUITO OBRIGADO\n";
 
 while ($input != 4) {
     $input = readline();
-    if($input == 1){
-        $alcool++;
-    }else if($input == 2){
-        $gasolina++;
-    }else if($input == 3){
-        $diesel++;
+    switch ($input) {
+        case '1':
+            $alcool++;
+            break;
+        
+        case '2':
+            $gasolina++;
+            break;
+        case '3':
+            $diesel++;
+            break;
     }
 
 }
